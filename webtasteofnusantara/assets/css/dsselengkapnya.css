@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFCF3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#FFFCF3;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    background-color: #40331F;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.welcome-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Bagian food section */
+.food-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Kontainer item makanan */
+.food-item {
+    background-color: #F1E2D7; /* Menggunakan satu warna latar belakang */
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling gambar */
+.food-item img {
+    width: 100%;
+    height: 150px; /* Tetapkan tinggi gambar tetap */
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Judul dan tombol */
+.food-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.food-item p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.read-more {
+    background-color: #40331F;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: auto; /* Menempatkan tombol di bagian bawah */
+    font-size: 14px;
+}
+
+/* Tombol lihat lainnya */
+.view-more {
+    margin: 20px;
+    background-color: #FFF2AE;
+    border: 2px solid #40331F;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Desain Responsif */
+@media (max-width: 600px) {
+    .welcome-content {
+        flex-direction: column;
+    }
+
+    .food-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-item {
+        width: 80%;
+    }
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    .welcome-content {
+        flex-direction: column;
+    }
+
+    .food-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-item {
+        width: 80%;
+    }
+}
+
+.button:hover {
+    background-color: #5a413e; 
+}
+
+
+.read-more:hover {
+    background-color: #5a413e; 
+}
+
+
+
